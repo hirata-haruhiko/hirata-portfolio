@@ -1,4 +1,4 @@
-# 平田ポートフォリオ / Hirata Portfolio
+ / Hirata Portfolio
 
 ## 日本語
 半導体製造装置フィールドサービス & ITソリューション事例  
