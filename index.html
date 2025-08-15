@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>平田ポートフォリオ / Hirata Portfolio</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Meiryo, sans-serif; line-height: 1.6; margin: 20px; }
+    h1 { margin-bottom: 8px; }
+    .frame { width: 100%; height: 70vh; border: 1px solid #ccc; border-radius: 8px; }
+    @media (max-width: 720px) { .frame { height: 60vh; } }
+  </style>
 </head>
 <body>
   <h1>半導体装置製造フィールドサービス & ITソリューション事例</h1>
   <p>現場経験30年以上の知見と最新ITスキルを組み合わせ、装置稼働率向上・コスト削減・業務効率化を実現したプロジェクト集。</p>
 
   <h2>1. Poster Generator</h2>
-  <p>AI生成記事をポスター化、画像リサイズ・SNS自動投稿までを自動化。→コンテンツ作成工数を約80％削減。</p>
-  <iframe src="poster-generator.html" width="100%" height="600px"></iframe>
+  <p>AI生成記事をポスター化、画像リサイズ・SNS自動投稿までを自動化。→ コンテンツ作成工数を約80％削減。</p>
+  <iframe class="frame" src="./poster-generator.html" loading="lazy"></iframe>
 
   <h2>2. AutoReaction</h2>
-  <p>Java × Python × Streamlit による24時間稼働の無人チャット受付システム。→顧客対応の自動化と応答高速化を実現。</p>
-  <iframe src="autoreaction.html" width="100%" height="600px"></iframe>
+  <p>Java × Python × Streamlit による24時間稼働の無人チャット受付。→ 応答高速化。</p>
+  <div class="links">
+    <a href="./autoreaction.html">AutoReaction を直接開く</a>
+  </div>
+  <iframe class="frame" src="./autoreaction.html" loading="lazy"></iframe>
 </body>
 </html>
